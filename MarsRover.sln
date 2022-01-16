@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2199041E-08F8-41F6-916F-D24992FCFAB6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{067D4B9A-3AD9-479F-A3FD-F6AA2B66B71F}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2FAB155E-2658-411C-B1D3-CF44F3849EFB}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
@@ -15,6 +17,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarsRover", "src\MarsRover\MarsRover.csproj", "{40E69857-08BA-451A-ACE6-FA8999D38EEA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarsRover.Console", "src\MarsRover.Console\MarsRover.Console.csproj", "{BADD443D-642C-48E1-BC7A-CEF0F799B396}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarsRover.Tests", "test\MarsRover.Tests\MarsRover.Tests.csproj", "{1E64425D-C1EA-4723-85C1-0679F3CF821C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +34,10 @@ Global
 		{BADD443D-642C-48E1-BC7A-CEF0F799B396}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BADD443D-642C-48E1-BC7A-CEF0F799B396}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BADD443D-642C-48E1-BC7A-CEF0F799B396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E64425D-C1EA-4723-85C1-0679F3CF821C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E64425D-C1EA-4723-85C1-0679F3CF821C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E64425D-C1EA-4723-85C1-0679F3CF821C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E64425D-C1EA-4723-85C1-0679F3CF821C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +45,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{40E69857-08BA-451A-ACE6-FA8999D38EEA} = {2199041E-08F8-41F6-916F-D24992FCFAB6}
 		{BADD443D-642C-48E1-BC7A-CEF0F799B396} = {2199041E-08F8-41F6-916F-D24992FCFAB6}
+		{1E64425D-C1EA-4723-85C1-0679F3CF821C} = {067D4B9A-3AD9-479F-A3FD-F6AA2B66B71F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B911B527-AD54-4F34-A7A9-4619FE2FDEA3}
